@@ -1,4 +1,12 @@
+﻿# Chặn thư mục rác của Visual Studio và IDE
 .vs/
-[Bb]in/
-[Oo]bj/
+.idea/
+.vscode/
+
+# Chặn các file build của .NET (quan trọng để không bị lock file)
+**/bin/
+**/obj/
+
+# Chặn các file người dùng
 *.user
+*.suo
